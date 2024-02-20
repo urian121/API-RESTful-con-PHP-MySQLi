@@ -51,13 +51,8 @@ switch ($metodo) {
         $email_alumno = mysqli_real_escape_string($con, $data['email_alumno']);
         $curso_alumno = mysqli_real_escape_string($con, $data['curso_alumno']);
         $sexo_alumno = mysqli_real_escape_string($con, $data['sexo_alumno']);
-        $habla_ingles = mysqli_real_escape_string($con, $data['habla_ingles']);
+        $habla_ingles = $data['habla_ingles'] === true ? 1 : 0;
 
-        if ($habla_ingles == "true") {
-            $habla_ingles = 1;
-        } else {
-            $habla_ingles = 0;
-        }
 
         $query = "INSERT INTO $tbl_alumnos (nombre_alumno, email_alumno, curso_alumno, sexo_alumno, habla_ingles) VALUES ('$nombre_alumno', '$email_alumno', '$curso_alumno', '$sexo_alumno', '$habla_ingles')";
         if (mysqli_query($con, $query)) {
