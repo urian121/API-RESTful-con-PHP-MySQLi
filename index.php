@@ -92,11 +92,7 @@ switch ($metodo) {
         break;
 
     case 'DELETE':
-        //$data = json_decode(file_get_contents("php://input"), true);
-        //$id = $data['id'];
-
         $id = $_GET['id'];
-
         // Realizar la eliminación del usuario
         $query = "DELETE FROM $tbl_alumnos WHERE id=$id";
         if (mysqli_query($con, $query)) {

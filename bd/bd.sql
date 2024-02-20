@@ -13,7 +13,7 @@ CREATE TABLE `tbl_alumnos` (
 INSERT INTO `tbl_alumnos` (`id`, `nombre_alumno`, `email_alumno`, `curso_alumno`, `sexo_alumno`, `habla_ingles`, `fecha_registro`)
 VALUES
 	(1,'Braudin','braudin@gmail.com','React Native','M',0,'2024-02-18 20:49:51'),
-	(3,'urian Viera','urian@gmail.com','REACT','M',0,'2024-02-18 20:58:43'),
+	(2,'urian Viera','urian@gmail.com','REACT','M',0,'2024-02-18 20:58:43'),
 	(4,'Brenda Viera','brenda@gmail.com','Python','F',0,'2024-02-18 20:59:31'),
 	(5,'Brenda ','brenda2@gmail.com','Python','F',0,'2024-02-18 21:08:20'),
 	(6,'nuevo','nuevo@gmail.com','React Native','M',0,'2024-02-18 21:09:04'),
