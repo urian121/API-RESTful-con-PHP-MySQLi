@@ -74,3 +74,14 @@
 #### Nota
 
     El código en el archivo .htaccess es un conjunto de reglas de reescritura de URL para permitir el enrutamiento de una aplicación de una sola página (SPA) en un servidor Apache. Básicamente, redirige todas las solicitudes que no coinciden con archivos o directorios existentes a index.php, donde la lógica de la aplicación manejará la navegación del lado del cliente. Esto permite que la aplicación SPA controle todas las rutas y navegación de manera dinámica.
+
+
+### Expresiones de Gratitud 🎁
+
+    Comenta a otros sobre este proyecto 📢
+    Invita una cerveza 🍺 o un café ☕
+    Paypal iamdeveloper86@gmail.com
+    Da las gracias públicamente 🤓.
+
+## No olvides SUSCRIBIRTE 👍
+
